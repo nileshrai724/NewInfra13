@@ -1,7 +1,4 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "rgnewinfra13"
-  location = "eastus"
-  tags = {
-    environment = "dev"
-  }
- }
+  name     = var.resource_group_name
+  location = var.resource_group_location
+}

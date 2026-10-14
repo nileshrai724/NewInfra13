@@ -1,4 +1,4 @@
-resource "azurerm_storage_account" "sanewinfra1" {
+resource "azurerm_storage_account" "sanewinfra" {
   name                     = "sanewinfra13"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
